@@ -25,7 +25,7 @@ if(new_node){
 
 
 int dequeue_struct(Queue *q){
-  int price ;
+  int price=0 ;
    NodePtr t = q->headPtr;
    printf("My order is %d\n",t->order_number);
     if(q->size >0){
